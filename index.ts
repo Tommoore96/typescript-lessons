@@ -1,7 +1,8 @@
-type Salutation = { greeting: string; name: string }
+const input = document.getElementById("input") as HTMLInputElement
 
-function greet({ greeting, name }: Salutation) {
-  return `${greeting}, ${name}!`
-}
+input.autofocus = true
 
-const message: string = greet({ greeting: "Hello", name: "John" })
+input.addEventListener("input", event => {
+  const i = event.currentTarget as HTMLInputElement
+  console.log(i.value)
+})
