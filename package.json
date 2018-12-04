@@ -7,8 +7,14 @@
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
   "devDependencies": {
-    "parcel-bundler": "^1.6.1"
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "parcel-bundler": "^1.6.1",
+    "typescript": "^3.2.1"
   }
 }
