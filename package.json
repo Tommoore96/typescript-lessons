@@ -7,8 +7,13 @@
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11"
+  },
   "devDependencies": {
+    "@types/jquery": "^3.3.22",
+    "@types/lodash": "^4.14.119",
     "parcel-bundler": "^1.6.1",
     "typescript": "^3.2.1"
   }
